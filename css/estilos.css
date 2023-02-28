@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+body {
+    font-family: "Roboto";
+    font-weight: 350;
+    font-size: 15px;
+    margin: 10px;
+}
+.degrade {
+    background: linear-gradient(rgb(221, 221, 238), #ebd7daf3);
+    margin: 50px 20px 50px 80px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.grilla {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 50px 20px 50px 80px;
+}
+.nombre {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.profesion {
+    font-family: "Roboto"; 
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.info {
+font-family: "Roboto"; 
+font-weight: 300;
+font-size: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+.descripcion {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.perfil {
+    padding: 2px; 
+    margin: 15px; 
+    float:left;
+    width: 250px;
+    border: solid 3px black
+ }
+.caja {
+    background: linear-gradient(rgb(198, 198, 223), #f1ccd2);
+    border-radius: 20px;
+    height: auto;
+    max-width: 90%;
+    padding: 50px;
+    margin: 50px 20px 50px 80px;
+}
+.titulo {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;   
+}
+.texto {
+    font-family: "Roboto";
+    font-weight: 350;
+    font-size: 15px;
+    margin: 10px;
+}
+.botonera {
+    position: fixed;
+    left: 10px;
+    top: 65px;
+}
+.boton {
+    width: 40px;
+    display: block;
+    padding: 15px;
+}
+.boton2 {width: 30px;
+    display: block;
+    padding: 15px;
+}
+.redes-container{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;   
+}
+.espacio {
+    max-width: 90%;
+    height: 200px;
+    margin: 200px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css">
+        <title>
+            CV Alejandra Vidal Olmos
+        </title>
+    </head>
+    <body>
+        <div class="botonera">
+            <a href="#personal">
+                <img class="boton" src="img/personal.icono.png" id="pers" 
+                onmousemove="enNegro1()" onmouseleave="enBlanco1()" alt="Información Personal">
+            </a>
+            <a href="#laboral">
+                <img class="boton" src="img/laboral.icono.png" id="labo" 
+                onmousemove="enNegro2()" onmouseleave="enBlanco2()" alt="Experiencia Laboral">
+            </a>
+            <a href="#habilidades">
+                <img class="boton" src="img/habilidades.icono.png" id="habi" 
+                onmousemove="enNegro3()" onmouseleave="enBlanco3()" alt="Habilidades">
+            </a>
+            <a href="#educacion">
+                <img class="boton" src="img/estudios.icono.png" id="estu" 
+                onmousemove="enNegro4()" onmouseleave="enBlanco4()" alt="Estudios">
+            </a>
+        </div>
+        <div class="degrade">
+            <div class="grilla">
+                <div class="header">
+                    <img src="img/Foto.jpg" class="perfil"/>
+                </div>
+                <div class="nombre"> ALEJANDRA VIDAL OLMOS </div>
+                <div class="profesion"> Licenciada en Comunicación (UNLP)</div> 
+                </br>
+            <div class="info"> Acerca de mí </div>
+                <div class="descripcion"> 
+                Soy una persona activa, responsable, con ganas de seguir adquiriendo saberes afines a la profesión 
+                e interesada en aportar conocimientos adquiridos sobre comunicación interna, externa, redes  
+                sociales, respetando la misión, la visión y los valores de las organizaciones de las que
+                forme parte. 
+                </div> 
+                <div class="redes-container">
+                    <a href="#twitter">
+                    <img class="boton2" src="img/twitter.icono.png" id="tw" 
+                    onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+                    </a>
+                    <a href="#facebook">
+                    <img class="boton2" src="img/facebook.icono.png" id="fb" 
+                    onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+                    </a>
+                    <a href="#instagram">
+                    <img class="boton2" src="img/instagram.icono.png" id="insta" 
+                    onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+                    </a>
+                    <a href="#github">
+                    <img class="boton2" src="img/github.icono.png" id="gith" 
+                    onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+                    </a>
+                </div>
+            </div>
+        </div>   
+        <div class="caja"  id="personal">
+            <p class="titulo"> Información Personal</p>   
+                <ul class="texto">
+                    <li class="edad">Edad: 35</li>
+                    <li>Residencia: Mar del Plata</li>
+                    <li>Nacimiento: 12/07/87</li>
+                    <li>Nacionalidad: Argentina</li>
+                    <li>Telefono: 223-500-0001</li>
+                    <li>E-mail: olmosaleja@gmail.com</li>
+                </ul>
+        </div>
+        <div class="caja" id="laboral">
+            <p class="titulo">Experiencia Laboral</p>
+            <ul class="text">
+                <li>2012 - 2015 / Facultad de Periodismo y Comunicacion Social (UNLP)/ Docente adscripta al Taller de Produccion y Comprensión de Textos II </li> 
+                <li>2016 - 2018 / Files Inteligencia Digital / Redactora de comunicados institucionales y comunicados de prensa</li>
+                <li>2018 - 2020 / Dirección General de Cultura y Educación de la Provincia de Buenos Aires / Analista de Comunicacion</li>
+                <li>2020 - Actualidad / CEPEI Comunicación / Analista de Comunicación</li>
+            </ul>
+        </div>            
+        <div class="caja" id="habilidades">
+            <p class="titulo">Habilidades</p>    
+            <ul class="texto">
+                <li>Organización y planificación</li>
+                <li>Comunicación efectiva y trabajo en equipo</li>
+                <li>Analisis competitivo</li>
+                <li>Gestión del tiempo</li>
+                <li>Adaptabilidad</li>
+                <li>Destrezas en informática</li>
+                <li>Diseño de campañas de comunicación</li>
+            </ul>
+        </div>
+        <div class="caja" id="educacion">
+            <p class="titulo">Estudios</p> 
+            <ul class="texto">
+                <li>2010 - 2015 / Licenciatura en Comunicación Social con orientación en Planificación Comunicacional / Facultad de Periodismo y Comunicación Social (UNLP)</li>
+                <li>2015 - 2017 / Especialización en Comunicación Digital / Facultad de Periodismo y Comunicación Social (UNLP)</li>
+                <li>2017 - 2018/ Redacción SEO y Copywriting / Rucúla Digital Academy</li>
+                <li>2019 - 2022 / Cursos virtuales de desarrollo front-end</li>
+            </ul>
+        </div>
+        
+        <div class="espacio"></div>
+    
+        <script src="javascript/eventos.js"></script>
+    </body>
+</html>
